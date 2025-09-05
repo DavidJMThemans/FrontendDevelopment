@@ -36,8 +36,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  Ik ga de website van Coolblue namaken:
-  https://www.coolblue.nl/?srsltid=AfmBOor45b7io1mY6-CcvABdL9LjD03R31NZBhKhN_HVin-ur7bVEbzK
+  Ik ga de website van New Balance namaken:
+  https://nl.newbalance.eu/nl/heren/ 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
