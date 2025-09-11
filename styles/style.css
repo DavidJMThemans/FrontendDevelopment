@@ -2,7 +2,8 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box; 
+  margin: 0px; 
 }
 
 
@@ -21,11 +22,119 @@
 
 
 
-
-
 /****************/
 /* JOUW STYLING */
 /****************/
 
 /* jouw code */
+@font-face {
+	font-family: ProximaNovaRegular;
+	src: url(../fonts/Proxima_Nova_W01_Regular.woff2);
+}
 
+@font-face {
+	font-family: ProximaNovaBlack;
+	src: url(../fonts/proximanova_black.ttf);
+}
+
+@font-face {
+	font-family: ProximaNovaBold;
+	src: url(../fonts/proximanova_bold.otf);
+}
+
+@font-face {
+	font-family: ProximaNovaBlackIT;
+	src: url(../fonts/proximanova_blackit.otf);
+}
+
+li {
+	list-style-type: none;
+}
+
+header {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	background-color: #151415;
+	margin: 0px;
+	height: 52px;
+}
+
+header p {
+	font-family: ProximaNovaRegular;
+	display: flex;
+	color: white;
+	font-size: 14px;
+	margin: 10px;
+}
+
+header img {
+	height: 16px;
+	width: 26.66px;
+}
+
+header section:first-child {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin: 8px;
+	margin-left: 69.5px;
+	padding: 10px;
+	display: none;
+}
+
+header section:nth-of-type(2) {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+}
+
+
+header p:nth-of-type(1){
+	justify-self: flex-start;
+}
+
+header section:nth-child(3) {
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	margin-right:25px;
+	display: none;
+}
+
+header button {
+	font-family: ProximaNovaBold;
+	font-weight: 900;
+	border-style: none;
+	background-color: #151415;
+	color: white;
+}
+
+header section:nth-child(4) {
+	height: 52px;
+}
+
+span {
+	color: white;
+	font-family: ProximaNovaBold;
+	font-size: 20px;
+	width: 1em;
+	height: 2em;
+}
+
+header i {
+	display: flex;
+	align-self: top;
+	position: relative;
+	right: 5px;
+	bottom: 2px;
+	margin: 10px;
+	border: solid white;
+  	border-width: 0 1px 1px 0;
+  	display: inline-block;
+  	padding: 2px;
+  	width: 2px;
+	transform: rotate(45deg);
+ 	 -webkit-transform: rotate(45deg);
+ 	 color: white;
+}
