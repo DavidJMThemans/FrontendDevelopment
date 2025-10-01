@@ -1,19 +1,3 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box; 
-  margin: 0px; 
-}
-
-
-
-
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
 :root {
 	/* startje */
 	--color-text:#111;
@@ -21,12 +5,6 @@
 }
 
 
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
 @font-face {
 	font-family: ProximaNovaRegular;
 	src: url(../fonts/Proxima_Nova_W01_Regular.woff2);
@@ -43,7 +21,7 @@
 }
 
 p {
-	font-family: ProximaNovaBold;
+	font-family: ProximaNovaRegular;
 }
 
 h2 {
@@ -60,149 +38,8 @@ ul {
 	list-style-type: none;
 }
 
-header p {
+li {
 	font-family: ProximaNovaRegular;
-	color: white;
-	font-size: 0.8em;
 }
 
-header img {
-	height: 16px;
-	width: 26.66px;
-}
-
-header nav:nth-of-type(1) {
-	display: flex;
-	justify-content: center;
-	background-color: #151415;
-	height: 52px;
-	padding: 10px;
-}
-
-header nav:nth-of-type(2) {
-	display: flex;
-	align-items: center;
-	flex-wrap: nowrap;
-	padding: 10px;
-	height: 61px;
-}
-
-header nav:nth-of-type(2) ul{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: nowrap;
-	width: 100vw;
-	margin-top: 2em;
-	margin-bottom: 2em;
-}
-
-header nav:nth-of-type(2) ul li:nth-child(1) {
-	width: 24px;
-	height: auto;
-}
-
-header nav:nth-of-type(2) ul li:nth-child(1) img {
-	position: absolute;
-	left: 5%;
-	top: 10.5%;
-	width: 20px;
-	height: auto;
-}
-
-header nav:nth-of-type(2) ul li:nth-child(2) img {
-	position: absolute;
-	left: 15%;
-	top: 10%;
-	width: 24px;
-	height: auto;
-}
-
-header nav:nth-of-type(2) ul li:nth-child(3) img {
-	position: absolute;
-	left: 45%;
-	top: 10%;
-	width: 48px;
-	height: auto;
-}
-
-header nav:nth-of-type(2) ul li:nth-child(4) img {
-	position: absolute;
-	right: 20%;
-	top: 10%;
-	width: 24px;
-	height: auto;
-}
-
-header nav:nth-of-type(2) ul li:nth-child(5) img {
-	position: absolute;
-	right: 5%;
-	top: 9.4%;
-	width: 35px;
-	height: auto;
-}
-
-main section:nth-of-type(1) {
-	margin-bottom: 1.2em;
-	margin-left: 1em;
-}
-
-main section:nth-of-type(2) {
-	margin-left: 1em;
-}
-
-main section:nth-of-type(2) h3{
-	margin-top: 1em;
-}
-
-main section:nth-of-type(3) {
-	padding: 0.5em;
-	padding-right: 0.5em;
-}
-
-main section:nth-of-type(3) img{
-	width: 169px;
-	height: 95px;
-	margin-top: 0.5em;
-	overflow-x: auto;
-	overflow-y: hidden;
-	object-fit: cover;
-}
-
-main section:nth-of-type(3) ul{
-	display: flex;
-	flex-wrap: nowrap;
-	overflow-x: auto;
-	overflow-y: hidden;
-	padding-left: 0.1em;
-}
-
-main section:nth-of-type(3) li{
-	margin: 1px;
-}
-
-main section:nth-of-type(3) p{
-	font-family: Garamond;
-	position: relative;
-	width: 5em;
-	bottom: 45%;
-	left: 33%;
-	color: white;
-}
-
-main section:nth-of-type(4) ul{
-	display: flex;
-	flex-wrap: nowrap;
-	overflow-x: auto;
-	overflow-y: hidden;
-	padding-left: 0.1em;
-	margin-top:1em;
-}
-
-main section:nth-of-type(4) li{
-	font-family: ProximaNovaRegular;
-	font-size: 0.9em;
-	margin: 1em;
-	text-decoration: underline;
-}
 
